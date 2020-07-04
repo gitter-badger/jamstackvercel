@@ -23,3 +23,5 @@ fields:
     schema:
       format: markdown
   label: Description
+pages:
+- retouch/テストサンプル-レタッチ.md
