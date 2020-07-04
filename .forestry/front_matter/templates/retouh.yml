@@ -24,4 +24,4 @@ fields:
       format: markdown
   label: Description
 pages:
-- retouch/テストサンプル-レタッチ.md
+- static/retouch/テストサンプル-レタッチ.md
