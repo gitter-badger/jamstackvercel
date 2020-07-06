@@ -28,5 +28,3 @@ fields:
   default: []
   label: Tag
   description: タグ
-pages:
-- content/posts/テスト.md
