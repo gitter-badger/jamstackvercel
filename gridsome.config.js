@@ -12,7 +12,7 @@ module.exports = {
       options: {
         typeName: 'Post',
         baseDir: './content/posts',
-        pathPrefix: '/posts',
+        pathPrefix: '',
         template: './src/templates/Post.vue'
       }
     }
