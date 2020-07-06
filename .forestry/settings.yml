@@ -9,8 +9,6 @@ sections:
   label: Post
   create: documents
   match: "**/*"
-  templates:
-  - retouh
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
