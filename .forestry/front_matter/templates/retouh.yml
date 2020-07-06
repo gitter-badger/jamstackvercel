@@ -1,5 +1,5 @@
 ---
-label: retouh
+label: Post
 hide_body: false
 fields:
 - name: img_import
@@ -23,5 +23,10 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
+  description: タグ
 pages:
-- static/retouch/テストサンプル-レタッチ.md
+- content/posts/テスト.md
