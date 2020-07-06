@@ -23,10 +23,10 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: tag
+- name: tags
   type: tag_list
   default: []
-  label: Tag
+  label: Tags
   description: タグ
 pages:
 - content/posts/testcon3.md
