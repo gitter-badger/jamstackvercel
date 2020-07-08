@@ -13,7 +13,13 @@ fields:
   config:
     required: false
   label: Title
-  description: タイトル
+  description: 日付タイトル
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: 表題
 - name: description
   type: textarea
   default: ''
