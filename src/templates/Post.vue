@@ -1,8 +1,7 @@
-<template>
-  <article>
-    <h1>{{ $page.post.title }}</h1>
-    <VueRemarkContent />
-  </article>
+<template lang="pug">
+  article
+    h1 {{ $page.post.title }}
+    VueRemarkContent
 </template>
 
 <page-query>
