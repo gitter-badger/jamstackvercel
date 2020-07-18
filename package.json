@@ -10,9 +10,5 @@
   "dependencies": {
     "@gridsome/vue-remark": "^0.2.2",
     "gridsome": "^0.7.18"
-  },
-  "devDependencies": {
-    "gridsome-plugin-pug": "^0.0.3",
-    "pug": "^3.0.0"
   }
 }
