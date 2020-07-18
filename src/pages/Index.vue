@@ -1,7 +1,8 @@
 <template lang="pug">
     .index
-      .hder
-        p.hdtitle 🐋Portfolio.JAMstack
+      div(class="w-full h-20 pt-2 pb-0 px-1 table")
+        div(class="table-cell sm:px-0 px-1 align-middle tracking-widest text-base font-bold") 🐋Portfolio.JAMstack
+      div(class="bg-pink-400 text-gray-100 font-bold py-0 px-3 rounded-lg") a
       g-link(v-for='post in $page.posts.edges', :key='post.id', :to='post.node.path')
         h2 {{ post.node.headline }}
         div {{ post.node.description }}
@@ -10,14 +11,6 @@
 </template>
 
 <style>
-  .hder {
-    @apply w-full h-20 pt-2 pb-0 px-1 table
-  }
-
-  .hdtitle {
-    @apply table-cell align-middle tracking-widest text-xl font-bold
-  }
-
   .btn {
     @apply bg-pink-400 text-gray-100 font-bold py-0 px-3 rounded-lg;
   }
