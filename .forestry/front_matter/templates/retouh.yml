@@ -34,3 +34,5 @@ fields:
   default: []
   label: Tags
   description: タグ
+pages:
+- content/posts/202007018test1.md
