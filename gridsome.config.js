@@ -23,5 +23,8 @@ module.exports = {
         pugLoader: {},
       },
     },
+    {
+      use: "gridsome-plugin-tailwindcss",
+    },
   ],
 };
