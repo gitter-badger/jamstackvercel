@@ -5,5 +5,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-  separator: "_",
-};
+}
