@@ -26,5 +26,32 @@ module.exports = {
     {
       use: "gridsome-plugin-tailwindcss",
     },
+    {
+      use: "gridsome-plugin-svg",
+      options: {
+        // default options below
+        goesBothWays: false,
+        svgo: [
+          {
+            removeTitle: false,
+          },
+          {
+            prefixIds: {
+              prefix: (_, { path }) => basename(path, ".svg"),
+              delim: "-",
+            },
+          },
+          {
+            removeDesc: false,
+          },
+          {
+            removeViewBox: false,
+          },
+          {
+            sortAttrs: true,
+          },
+        ],
+      },
+    },
   ],
 };
