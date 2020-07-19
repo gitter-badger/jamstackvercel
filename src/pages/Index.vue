@@ -7,19 +7,21 @@
       .card1
         img(Class="sm:float-left float-none sm:mr-3 mr-0" src="uploads/VilafrancaLemon.oxo.jpg" width="150" height="150")
         .card1box
-          p(Class="text-2xl font-black tracking-widest") Dekopon
-          p(Class="mt-3 text-lg font-thin tracking-widest") portfolio.notion
-      div(class="clearfix bg-pink-400 text-gray-100 font-bold py-0 px-3 rounded-lg")
-        div Box
+          p(Class="text-xl font-black tracking-widest")
+            span(Class="name") Dekopon
+          p(Class="mt-3 text-base font-thin tracking-widest")
+            span(Class="note") portfolio.notion
+      div(class="w-full h-20 pt-2 pb-0 px-1 table")
+        div(Class="table-cell sm:px-0 px-1 align-middle tracking-widest text-base font-bold") retouch/ times
       g-link(v-for='post in $page.posts.edges', :key='post.id', :to='post.node.path')
-        h2 {{ post.node.headline }}
-        div {{ post.node.description }}
-        div {{ post.node.tags }}
-      button.btn test
+        div(class="bg-orange-400 rounded-lg")
+          h2 {{ post.node.headline }}
+          div {{ post.node.description }}
+          div {{ post.node.tags }}
 </template>
 
 <style>
-  .btn {
+  .tags {
     @apply bg-pink-400 text-gray-100 font-bold py-0 px-3 rounded-lg;
   }
 </style>

@@ -45,5 +45,13 @@ body {
     vertical-align: bottom;
 }
 
+.card1box .name {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card1box .note {
+    font-family: 'Kanit', sans-serif;
+}
+
 @tailwind components;
 @tailwind utilities;
