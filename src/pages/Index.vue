@@ -19,7 +19,7 @@
             g-image(:src="post.node.img_import")
             p.conttitle {{ post.node.headline }}
             p.contdscrpt {{ post.node.description }}
-            //- p {{ post.node.tags }}
+            p.conttag {{ post.node.tags }}
 </template>
 
 <style>
