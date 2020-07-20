@@ -86,7 +86,7 @@ body {
 .contbox .conttitle {
     position: absolute;
     width: 100%;
-    bottom: 45%;
+    bottom: 41%;
     left: 0;
     margin: 0 0 9px;
     background-color: #fff;
@@ -98,8 +98,20 @@ body {
 .contbox .contdscrpt {
     position: absolute;
     width: 100%;
-    bottom: 25%;
+    height: 200px;
+    bottom: 0%;
     left: 0;
+    margin: 0 0 25px;
+    background-color: #252525;
+    color: #F9F9FA;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    font-size: 16pt;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
 }
 
 @tailwind components;
