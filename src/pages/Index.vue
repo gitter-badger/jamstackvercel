@@ -16,7 +16,7 @@
       div(class="w-full")
         g-link(v-for='post in $page.posts.edges', :key='post.id', :to='post.node.path')
           .contbox
-            g-image(:src="post.node.img_import" width="100%" height="auto")
+            g-image(:src="post.node.img_import")
             p.conttitle {{ post.node.headline }}
             p.contdscrpt {{ post.node.description }}
             //- p {{ post.node.tags }}

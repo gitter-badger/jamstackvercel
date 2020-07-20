@@ -88,6 +88,11 @@ body {
     width: 100%;
     bottom: 45%;
     left: 0;
+    margin: 0 0 9px;
+    background-color: #fff;
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 16pt;
 }
 
 .contbox .contdscrpt {
