@@ -9,7 +9,7 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: "stylesheet",
     href:
-      "https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=M+PLUS+1p:wght@800&family=Montserrat:wght@900&family=Noto+Sans+JP:wght@100;400;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=M+PLUS+1p:wght@800&family=Montserrat:wght@900&family=Noto+Sans+JP:wght@100;200;400;700&display=swap",
   });
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
