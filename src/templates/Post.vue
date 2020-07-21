@@ -88,7 +88,7 @@
   blockquote {
     background-color: #FFF;
     margin: 0.75rem 0;
-    padding: 4px 4px;
+    padding: 4px 10px;
     border-radius: 2px;
     border-left-width: 6px;
     border-color: #F99FC9;
@@ -99,10 +99,48 @@
     background-color: #141426;
     color: #F9F9FA;
     margin: 0.75rem 0;
-    padding: 4px 6px;
+    padding: 5px 13px;
     border-radius: 1px;
     border-left-width: 6px;
     border-color: #ffb95e;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: li_count;
+  }
+
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-image: url(asterisk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+  }
+
+  ol li::before {
+    counter-increment: li_count;
+    content: counter(li_count)".";
+    color: #14142635;
+    margin-right: 5px;
+  }
+
+  li {
+    margin: 0.5rem 0;
   }
 </style>
 
