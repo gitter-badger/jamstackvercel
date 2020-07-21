@@ -123,7 +123,7 @@
     width: 8px;
     height: 8px;
     display: inline-block;
-    background-image: url(asterisk.png);
+    background-image: url(https://i.gyazo.com/176c53edc8f4d1f6480a8669498c1f14.png);
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
