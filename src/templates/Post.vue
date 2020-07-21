@@ -10,7 +10,7 @@
 
 <style>
   div p {
-    @apply text-base font-normal tracking-wider leading-relaxed;
+    @apply mx-0 my-2 text-base font-normal tracking-wider leading-relaxed;
   }
 
   div p strong {
