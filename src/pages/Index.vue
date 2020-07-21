@@ -23,8 +23,8 @@
 </template>
 
 <style>
-  .tags {
-    @apply bg-pink-400 text-gray-100 font-bold py-0 px-3 rounded-lg;
+  div div a {
+    color: #141426;
   }
 </style>
 
