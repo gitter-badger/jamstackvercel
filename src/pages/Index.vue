@@ -14,9 +14,9 @@
             span(class="note")
               a(href="https://www.notion.so/wasl/PORTFOLIO-1d708aa1676349b79c7ea0d9d47c6162" target="_blank") Portfolio
             span(class="note") /JAMstack
-      div(class="w-full h-20 pt-2 pb-0 px-1 table")
+      div(class="w-full h-20 pt-2 pb-0 px-1 table clear-left")
         div(class="table-cell sm:px-0 px-1 align-middle tracking-widest text-base font-bold") retouch/ times
-      div(class="w-full")
+      div(class="w-full clear-left")
         g-link(v-for='post in $page.posts.edges', :key='post.id', :to='post.node.path')
           .contbox
             g-image(:src="post.node.img_import")
