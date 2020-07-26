@@ -38,8 +38,8 @@
   h1 {
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
-    letter-spacing: 0.2em;
-    font-size: 24pt;
+    letter-spacing: 0.18em;
+    font-size: 55pt;
     margin: 0.75rem 0 0.5rem;
   }
 
@@ -47,7 +47,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     letter-spacing: 0.15em;
-    font-size: 20pt;
+    font-size: 34pt;
     border-bottom-width: 4px;
     border-color: #14142625;
     margin-bottom: 0.5rem;
@@ -57,7 +57,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     letter-spacing: 0.1em;
-    font-size: 18pt;
+    font-size: 27pt;
     margin-bottom: 0.25rem;
   }
 
@@ -65,7 +65,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     letter-spacing: 0.075em;
-    font-size: 16pt;
+    font-size: 21pt;
     margin-bottom: 0.2rem;
   }
 
@@ -73,7 +73,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     letter-spacing: 0.05em;
-    font-size: 14pt;
+    font-size: 17pt;
     margin-bottom: 0.2rem;
   }
 
@@ -81,7 +81,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 800;
     letter-spacing: 0.025em;
-    font-size: 12pt;
+    font-size: 13pt;
     margin-bottom: 0.25rem;
   }
 
@@ -91,7 +91,7 @@
     padding: 4px 10px;
     border-radius: 2px;
     border-left-width: 6px;
-    border-color: #F99FC9;
+    border-color: #93fdd1;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
   }
 
@@ -123,7 +123,7 @@
     width: 8px;
     height: 8px;
     display: inline-block;
-    background-image: url(https://i.gyazo.com/176c53edc8f4d1f6480a8669498c1f14.png);
+    background-image: url(../../static/uploads/asterisk.png);
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
