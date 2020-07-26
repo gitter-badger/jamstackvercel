@@ -1,5 +1,9 @@
 @tailwind base;
 
+body {
+    background-color: #F9F9FA;
+}
+
 .index {
     font-family: Noto Sans JP,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     padding:0 50px;
@@ -14,6 +18,10 @@
     line-height: 1.4;
     background-color: #F9F9FA;
     color: #141426;
+}
+
+.g-link {
+    background-color: transparent;
 }
 
 @media (max-width: 640px)
