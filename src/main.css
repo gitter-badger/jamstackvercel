@@ -2,7 +2,7 @@
 
 body {
     font-family: Noto Sans JP,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    padding:0 50px;
+    margin:0 50px;
     line-height: 1.4;
     background-color: #F9F9FA;
     color: #141426;
@@ -11,7 +11,7 @@ body {
 @media (max-width: 640px)
 {
     body {
-        padding:0 8px;
+        margin:0 8px;
     }
 
     div.card1 {
@@ -62,6 +62,7 @@ body {
 
 .card1box .note {
     font-family: 'Kanit', sans-serif;
+    float: left;
 }
 
 .contbox {
@@ -131,6 +132,10 @@ body {
     background-color: #F99FC9;
     color: #fff;
     font-family: 'Kanit', sans-serif;
+}
+
+.sitetitle {
+    font-weight: 700;
 }
 
 @tailwind components;
