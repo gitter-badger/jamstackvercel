@@ -35,7 +35,6 @@ fields:
   label: Tags
   description: タグ
 pages:
-- content/posts/202007018test1.md
 - content/posts/20200718test2.md
 - content/posts/20200720testlt.md
 - content/posts/20200721mdtest.md
