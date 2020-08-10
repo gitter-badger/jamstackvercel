@@ -34,5 +34,3 @@ fields:
   default: []
   label: Tags
   description: タグ
-pages:
-- content/posts/20200721mdtest.md
