@@ -29,6 +29,12 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: tagz
+  type: text
+  config:
+    required: false
+  label: Tagz
+  description: tag
 - name: tags
   type: tag_list
   default: []
