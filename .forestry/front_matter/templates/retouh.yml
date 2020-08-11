@@ -29,14 +29,16 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: tagz
+  type: text
+  config:
+    required: false
+  label: Tagz
+  description: tag
 - name: tags
   type: tag_list
   default: []
   label: Tags
   description: タグ
 pages:
-- content/posts/202007018test1.md
-- content/posts/202007018test3.md
-- content/posts/20200718test2.md
-- content/posts/20200720testlt.md
-- content/posts/20200721mdtest.md
+- content/posts/202008101730.md
