@@ -10,139 +10,134 @@
 </template>
 
 <style>
-  div p {
-    @apply mx-0 my-2 text-base font-normal tracking-wider leading-relaxed;
-  }
+.postbody {
+  font-family: Noto Sans JP, sans-serif;
+  padding:0 8px;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+  background-color: #F9F9FA;
+  color: #141426;
 
-  div p strong {
-    @apply font-bold;
+  @media screen and (min-width: 769px) {
+    padding:0 50px;
+    max-width: 1100px;
   }
+}
 
-  div p em {
-    @apply italic;
-  }
+h1 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  font-size: 55pt;
+  margin: 0.75rem 0 0.5rem;
+}
 
-  div p a {
-    color: #489FDF;
-  }
+h2 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  font-size: 34pt;
+  border-bottom-width: 4px;
+  border-color: #14142625;
+  margin: 2.5rem 0 0.5rem 0;
+}
 
-  div div p a {
-    font-size: 0.875rem;
-    letter-spacing: 0.1em;
-    color: #489FDF;
-  }
+h3 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  font-size: 27pt;
+  margin: 1.5rem 0 0.5rem 0;
+}
 
-  .hd {
-    @apply tracking-widest text-sm font-thin;
-  }
+h4 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.075em;
+  font-size: 21pt;
+  margin: 1.5rem 0 0.5rem 0;
+}
 
-  h1 {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.18em;
-    font-size: 55pt;
-    margin: 0.75rem 0 0.5rem;
-  }
+h5 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 17pt;
+  margin: 1.5rem 0 0.5rem 0;
+}
 
-  h2 {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.15em;
-    font-size: 34pt;
-    border-bottom-width: 4px;
-    border-color: #14142625;
-    margin-bottom: 0.5rem;
-  }
+h6 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  font-size: 13pt;
+  margin: 1.5rem 0 0.5rem 0;
+}
 
-  h3 {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    font-size: 27pt;
-    margin-bottom: 0.25rem;
-  }
+ul {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+}
 
-  h4 {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.075em;
-    font-size: 21pt;
-    margin-bottom: 0.2rem;
-  }
+ol {
+  list-style: decimal;
+  margin: 0;
+  padding: 0;
+}
 
-  h5 {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-    font-size: 17pt;
-    margin-bottom: 0.2rem;
-  }
+li {
+  margin: 0.3rem 1.5rem;
+}
 
-  h6 {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.025em;
-    font-size: 13pt;
-    margin-bottom: 0.25rem;
-  }
+blockquote {
+  background-color: #FFF;
+  margin: 1.5rem 0;
+  padding: 4px 10px;
+  border-radius: 2px;
+  border-left-width: 6px;
+  border-color: #FCD757;
+  box-shadow: 0 2.3rem 2.1rem -2rem rgba(0, 0, 0, 0.25);
+}
 
-  blockquote {
-    background-color: #FFF;
-    margin: 0.75rem 0;
-    padding: 4px 10px;
-    border-radius: 2px;
-    border-left-width: 6px;
-    border-color: #93fdd1;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
-  }
+div p {
+  @apply mx-0 my-2 text-base font-normal tracking-wider leading-relaxed;
+}
 
-  pre {
-    background-color: #141426;
-    color: #F9F9FA;
-    margin: 0.75rem 0;
-    padding: 5px 13px;
-    border-radius: 1px;
-    border-left-width: 6px;
-    border-color: #ffb95e;
-  }
+div p strong {
+  @apply font-bold;
+}
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    counter-reset: li_count;
-  }
+div p em {
+  @apply italic;
+}
 
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+div p a {
+  color: #489FDF;
+}
 
-  ul li::before {
-    content: "";
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    background-image: url(../../static/uploads/asterisk.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    position: relative;
-    top: -1px;
-    margin-right: 5px;
-  }
+div div p a {
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  color: #489FDF;
+}
 
-  ol li::before {
-    counter-increment: li_count;
-    content: counter(li_count)".";
-    color: #14142635;
-    margin-right: 5px;
-  }
+.hd {
+  @apply tracking-widest text-sm font-thin;
+}
 
-  li {
-    margin: 0.5rem 0;
-  }
+pre {
+  background-color: #141426;
+  color: #F9F9FA;
+  margin: 0.75rem 0;
+  padding: 5px 13px;
+  border-radius: 1px;
+  border-left-width: 6px;
+  border-color: #ffb95e;
+}
 </style>
 
 <page-query>

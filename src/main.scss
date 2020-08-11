@@ -1,0 +1,24 @@
+@tailwind base;
+
+html,body {
+    background-color: #F9F9FA;
+
+    div.index {
+        font-family: Noto Sans JP,sans-serif;
+        font-weight: 200;
+        line-height: 1.4;
+        padding:6px 8px;
+        color: rgb(37, 37, 37);
+
+        @media screen and (min-width: 481px){
+            padding:6px 50px;
+        }
+    }
+}
+
+.g-link {
+    background-color: transparent;
+}
+
+@tailwind components;
+@tailwind utilities;
