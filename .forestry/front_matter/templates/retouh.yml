@@ -41,4 +41,5 @@ fields:
   label: Tags
   description: タグ
 pages:
+- content/posts/202007010000.md
 - content/posts/202008101730.md
