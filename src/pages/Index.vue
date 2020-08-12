@@ -14,7 +14,7 @@
             span(class="note") Portfolio
       div(class="w-full h-20 pt-2 pb-0 px-1 table clear-left")
         div(class="table-cell sm:px-0 px-1 align-middle tracking-widest text-base font-bold") retouch/ times
-      div(class="w-full clear-left")
+      .contcardbox
         g-link(v-for='post in $page.posts.edges', :key='post.id', :to='post.node.path')
           .contbox
             g-image(:src="post.node.img_import")
@@ -67,6 +67,15 @@ div.card1 {
   }
 }
 
+div.contcardbox {
+  width: 100%;
+
+  @media screen and (min-width: 769px) {
+    display: flex;
+  }
+
+}
+
 div.contbox {
   width: 250px;
   height: 550px;
@@ -76,9 +85,6 @@ div.contbox {
   box-shadow: 0 2.3rem 2.1rem -2rem rgba(0, 0, 0, 0.25);
   position: relative;
 
-  @media screen and (min-width: 769px) {
-    display: flex;
-  }
 
   .g-image {
       height: 100%;

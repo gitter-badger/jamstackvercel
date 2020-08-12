@@ -20,6 +20,7 @@
   line-height: 1.4;
   background-color: #F9F9FA;
   color: #141426;
+  word-break: break-all;
 
   @media screen and (min-width: 769px) {
     padding:0 50px;
@@ -30,51 +31,79 @@
 h1 {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.18em;
-  font-size: 55pt;
   margin: 0.75rem 0 0.5rem;
+  letter-spacing: 0.13em;
+  font-size: 3.8rem;
+
+  @media screen and (min-width: 769px) {
+    letter-spacing: 0.18em;
+    font-size: 5rem;
+  }
 }
 
 h2 {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.15em;
-  font-size: 34pt;
   border-bottom-width: 4px;
   border-color: #14142625;
   margin: 2.5rem 0 0.5rem 0;
+  letter-spacing: 0.1em;
+  font-size: 2.4rem;
+
+  @media screen and (min-width: 769px) {
+    letter-spacing: 0.15em;
+    font-size: 3rem;
+  }
 }
 
 h3 {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.1em;
-  font-size: 27pt;
   margin: 1.5rem 0 0.5rem 0;
+  letter-spacing: 0.09em;
+  font-size: 1.9rem;
+
+  @media screen and (min-width: 769px) {
+  letter-spacing: 0.1em;
+  font-size: 2.2rem;
+  }
 }
 
 h4 {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.075em;
-  font-size: 21pt;
   margin: 1.5rem 0 0.5rem 0;
+  letter-spacing: 0.065em;
+  font-size: 1.6rem;
+
+  @media screen and (min-width: 769px) {
+  letter-spacing: 0.075em;
+  font-size: 1.9rem;
+  }
 }
 
 h5 {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.05em;
-  font-size: 17pt;
   margin: 1.5rem 0 0.5rem 0;
+  letter-spacing: 0.04em;
+  font-size: 1.4rem;
+
+  @media screen and (min-width: 769px) {
+  font-size: 1.4rem;
+  }
 }
 
 h6 {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 800;
-  letter-spacing: 0.025em;
-  font-size: 13pt;
   margin: 1.5rem 0 0.5rem 0;
+  letter-spacing: 0.025em;
+  font-size: 1.1rem;
+
+  @media screen and (min-width: 769px) {
+  font-size: 1.1rem;
+  }
 }
 
 ul {
@@ -136,7 +165,7 @@ pre {
   padding: 5px 13px;
   border-radius: 1px;
   border-left-width: 6px;
-  border-color: #ffb95e;
+  border-color: #48D597;
 }
 </style>
 
