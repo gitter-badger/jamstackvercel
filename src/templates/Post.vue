@@ -12,7 +12,9 @@
 <style>
 .postbody {
   font-family: Noto Sans JP, sans-serif;
-  padding:0 8px;
+  font-feature-settings: "palt";
+  letter-spacing: 0.08em;
+  padding: 0 8px;
   margin-top: 0;
   margin-bottom: 4rem;
   margin-left: auto;
@@ -23,16 +25,17 @@
   word-break: break-all;
 
   @media screen and (min-width: 769px) {
-    padding:0 50px;
+    padding: 0 50px;
     max-width: 1100px;
   }
 }
 
 h1 {
   font-family: 'M PLUS 1p', sans-serif;
+  font-feature-settings: "palt";
   font-weight: 800;
   margin: 0.75rem 0 0.5rem;
-  letter-spacing: 0.13em;
+  //letter-spacing: 0.13em;
   font-size: 3.8rem;
 
   @media screen and (min-width: 769px) {
@@ -43,11 +46,12 @@ h1 {
 
 h2 {
   font-family: 'M PLUS 1p', sans-serif;
+  font-feature-settings: "palt";
   font-weight: 800;
   border-bottom-width: 4px;
   border-color: #14142625;
   margin: 2.5rem 0 0.5rem 0;
-  letter-spacing: 0.1em;
+  //letter-spacing: 0.1em;
   font-size: 2.4rem;
 
   @media screen and (min-width: 769px) {
@@ -58,6 +62,7 @@ h2 {
 
 h3 {
   font-family: 'M PLUS 1p', sans-serif;
+  font-feature-settings: "palt";
   font-weight: 800;
   margin: 1.5rem 0 0.5rem 0;
   letter-spacing: 0.09em;
@@ -71,6 +76,7 @@ h3 {
 
 h4 {
   font-family: 'M PLUS 1p', sans-serif;
+  font-feature-settings: "palt";
   font-weight: 800;
   margin: 1.5rem 0 0.5rem 0;
   letter-spacing: 0.065em;
@@ -84,6 +90,7 @@ h4 {
 
 h5 {
   font-family: 'M PLUS 1p', sans-serif;
+  font-feature-settings: "palt";
   font-weight: 800;
   margin: 1.5rem 0 0.5rem 0;
   letter-spacing: 0.04em;
@@ -96,6 +103,7 @@ h5 {
 
 h6 {
   font-family: 'M PLUS 1p', sans-serif;
+  font-feature-settings: "palt";
   font-weight: 800;
   margin: 1.5rem 0 0.5rem 0;
   letter-spacing: 0.025em;
