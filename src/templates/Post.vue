@@ -35,7 +35,7 @@ h1 {
   font-feature-settings: "palt";
   font-weight: 800;
   margin: 0.75rem 0 0.5rem;
-  //letter-spacing: 0.13em;
+  letter-spacing: 0.13em;
   font-size: 3.8rem;
 
   @media screen and (min-width: 769px) {
@@ -51,7 +51,7 @@ h2 {
   border-bottom-width: 4px;
   border-color: #14142625;
   margin: 2.5rem 0 0.5rem 0;
-  //letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
   font-size: 2.4rem;
 
   @media screen and (min-width: 769px) {
