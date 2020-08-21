@@ -1,0 +1,77 @@
+div.contcardbox {
+  width: 100%;
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    display: flex;
+  }
+
+  div.contbox {
+    width: 250px;
+    height: 550px;
+    margin: $contcard-margin;
+    background-color: $card-background-color;
+    border-radius: $card-radius;
+    box-shadow: $box-shadow;
+    position: relative;
+
+    .g-image {
+      height: 100%;
+      min-height: 550px;
+      width: auto;
+      object-fit: cover;
+      border-radius: $card-radius;
+      opacity: 0.8;
+    }
+
+    .conttitle {
+      width: 100%;
+      position: absolute;
+      bottom: 41%;
+      left: 0;
+      margin: $conttitle-margin;
+      background-color: $card-conttitle-background-color;
+      font-family: $conttitle-text;
+      letter-spacing: $conttitle-text-spacing;
+      font-size: $conttitle-text-size;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+
+    .contdscrpt {
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      bottom: 0%;
+      left: 0;
+      margin: $contdscrpt-margin;
+      opacity: 0.7;
+      background-color: $card-contdscrpt-background-color;
+      color: $contdscrpt-text-color;
+      font-family: $text-main-font;
+      font-weight: $contdscrpt-text-weight;
+      letter-spacing: $contdscrpt-text-spacing;
+      font-size: $contdscrpt-text-size;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 7;
+      overflow: hidden;
+    }
+
+    .conttag {
+      width: auto;
+      height: 24px;
+      padding: $conttag;
+      position: absolute;
+      top: 8px;
+      right: 6px;
+      border-radius: $tag-radius;
+      opacity: 0.8;
+      background-color: $card-conttag-background-color;
+      color: $card-conttag-text-color;
+      font-family: $conttag-text;
+    }
+  }
+}
+

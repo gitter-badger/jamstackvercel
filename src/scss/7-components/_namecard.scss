@@ -1,0 +1,38 @@
+div.card1 {
+  width: 170px;
+  height: 240px;
+  padding: $namecard-padding-s;
+  background-color: $card-background-color;
+  border-radius: $card-radius;
+  box-shadow: $box-shadow;
+  position: relative;
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    width: 370px;
+    height: 200px;
+    padding: $namecard-padding-l;
+    display: flex;
+  }
+
+  div.card1box {
+    height: 75px;
+    text-align: right;
+    position: absolute;
+    bottom: 15px;
+    right: 12px;
+
+    @media screen and (min-width: $for-tablet-portrait-up) {
+      height: 150px;
+      bottom: -55px;
+      right: 18px;
+    }
+
+    span.name {
+      font-family: $namecard-name-text;
+    }
+
+    span.note {
+      font-family: $namecard-note-text;
+    }
+  }
+}

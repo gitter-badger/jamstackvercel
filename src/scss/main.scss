@@ -33,10 +33,15 @@
 @import "6-skeleton/layouts";
 
 //7. Components
-@import "7-components/postpage";
+@import
+  "7-components/postpage",
+  "7-components/logotitle",
+  "7-components/namecard",
+  "7-components/contcard";
 
 //8. Utilities
-@import "8-utilities/headertext";
+@import
+  "8-utilities/headertext";
 
 @import "shame";
 
