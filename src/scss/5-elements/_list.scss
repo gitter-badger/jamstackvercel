@@ -1,0 +1,15 @@
+ul {
+  list-style: disc;
+  margin: $post-list-ulol-margin;
+  padding: $post-list-ulol-padding;
+}
+
+ol {
+  list-style: decimal;
+  margin: $post-list-ulol-margin;
+  padding: $post-list-ulol-padding;
+}
+
+li {
+  margin: $post-list-li-margin;
+}

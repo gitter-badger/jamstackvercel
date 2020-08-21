@@ -1,0 +1,75 @@
+h1 {
+  font-family: $heading-text;
+  font-feature-settings: "palt";
+  font-weight: $heading-text-weight;
+  font-size: $heading6-text-size-s;
+  letter-spacing: $heading6-spacing-s;
+  margin: $heading6-margin;
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    font-size: $heading6-text-size-l;
+    letter-spacing: $heading6-spacing-l;
+  }
+}
+
+h2 {
+  font-family: $heading-text;
+  font-feature-settings: "palt";
+  font-weight: $heading-text-weight;
+  font-size: $heading5-text-size-s;
+  letter-spacing: $heading5-spacing-s;
+  margin: $heading5-margin;
+  border-bottom-width: 4px;
+  border-color: rgba(20, 20, 38, 0.25);
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    font-size: $heading5-text-size-l;
+    letter-spacing: $heading5-spacing-l;
+  }
+}
+
+h3 {
+  font-family: $heading-text;
+  font-feature-settings: "palt";
+  font-weight: $heading-text-weight;
+  font-size: $heading4-text-size-s;
+  letter-spacing: $heading4-spacing-s;
+  margin: $heading4-margin;
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    font-size: $heading4-text-size-l;
+    letter-spacing: $heading4-spacing-l;
+  }
+}
+
+h4 {
+  font-family: $heading-text;
+  font-feature-settings: "palt";
+  font-weight: $heading-text-weight;
+  font-size: $heading3-text-size-s;
+  letter-spacing: $heading3-spacing-s;
+  margin: $heading4-margin;
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    font-size: $heading3-text-size-l;
+    letter-spacing: $heading3-spacing-l;
+  }
+}
+
+h5 {
+  font-family: $heading-text;
+  font-feature-settings: "palt";
+  font-weight: $heading-text-weight;
+  font-size: $heading2-text-size;
+  letter-spacing: $heading2-spacing;
+  margin: $heading4-margin;
+}
+
+h6 {
+  font-family: $heading-text;
+  font-feature-settings: "palt";
+  font-weight: $heading-text-weight;
+  font-size: $heading1-text-size;
+  letter-spacing: $heading1-spacing;
+  margin: $heading4-margin;
+}

@@ -1,0 +1,9 @@
+blockquote {
+  background-color: $blockquote-background-color;
+  margin: $post-blockquote-margin;
+  padding: $post-blockquote-padding;
+  border-radius: $post-radius;
+  border-left-width: $post-borderweight;
+  border-color: $blockquote-key-color;
+  box-shadow: $box-shadow;
+}

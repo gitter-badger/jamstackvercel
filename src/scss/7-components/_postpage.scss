@@ -1,0 +1,27 @@
+div {
+  p {
+    @apply mx-0 my-2 text-base font-normal tracking-wider leading-relaxed;
+
+    strong {
+      @apply font-bold;
+    }
+
+    em {
+      @apply italic;
+    }
+
+    a {
+      color: $linktext-normal-color;
+    }
+  }
+
+  div {
+    p {
+      a {
+        font-size: $post-link-text-size;
+        letter-spacing: $post-link-spacing;
+        color: $linktext-normal-color;
+      }
+    }
+  }
+}

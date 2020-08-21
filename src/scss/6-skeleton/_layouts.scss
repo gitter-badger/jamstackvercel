@@ -1,0 +1,33 @@
+div.index {
+  font-family: $text-main-font;
+  font-size: $text-base-size;
+  font-weight: $text-light-weight;
+  line-height: $text-base-lineheight;
+  color: $text-normal-color;
+  padding: $index-padding;
+
+  @media screen and (min-width: $for-tablet-portrait-up) {
+    padding: $index-padding-for-tablet-portrait-up;
+  }
+}
+
+div.postbody {
+  font-feature-settings: "palt";
+  font-family: $text-main-font;
+  font-size: $text-base-size;
+  font-weight: $text-normal-weight;
+  line-height: $text-base-lineheight;
+  letter-spacing: $post-letterspacing;
+  padding: $post-padding;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: $text-normal-color;
+  word-break: break-all;
+
+  @media screen and (min-width: $for-tablet-landscape-up) {
+    padding: $post-padding-for-tablet-landscape-up;
+    max-width: $wrapper-width;
+  }
+}

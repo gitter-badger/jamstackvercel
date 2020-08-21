@@ -1,0 +1,44 @@
+@tailwind base;
+@charset "UTF-8";
+
+// 1. Settings
+@import "1-settings/global";
+
+// 2. Design Tokens
+@import
+  "2-design-tokens/colors",
+  "2-design-tokens/fonts",
+  "2-design-tokens/media-queries",
+  "2-design-tokens/spacing",
+  "2-design-tokens/typography",
+  "2-design-tokens/shadow";
+
+//3. Tools
+@import
+  "3-tools/radius",
+  "3-tools/borderweight";
+
+//4. Generic
+
+//5. Elements
+@import
+  "5-elements/htmlbody",
+  "5-elements/headings",
+  "5-elements/links",
+  "5-elements/list",
+  "5-elements/blockquote",
+  "5-elements/preformatted";
+
+//6. Skeleton
+@import "6-skeleton/layouts";
+
+//7. Components
+@import "7-components/postpage";
+
+//8. Utilities
+@import "8-utilities/headertext";
+
+@import "shame";
+
+@tailwind components;
+@tailwind utilities;
