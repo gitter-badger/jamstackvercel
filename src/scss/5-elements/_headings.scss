@@ -19,8 +19,8 @@ h2 {
   font-size: $heading5-text-size-s;
   letter-spacing: $heading5-spacing-s;
   margin: $heading5-margin;
-  border-bottom-width: 4px;
-  border-color: rgba(20, 20, 38, 0.25);
+  border-bottom-width: $heading-borderweight;
+  border-color: $heading-border-color;
 
   @media screen and (min-width: $for-tablet-portrait-up) {
     font-size: $heading5-text-size-l;
