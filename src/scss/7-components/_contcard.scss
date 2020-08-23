@@ -1,8 +1,17 @@
 div.contcardbox {
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
 
   @media screen and (min-width: $for-tablet-portrait-up) {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
   }
 
   div.contbox {
