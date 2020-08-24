@@ -8,7 +8,7 @@
         img(src="uploads/VilafrancaLemon.oxo.jpg" width="150" height="150")
         .card1box
           p(class="text-xl font-black tracking-widest")
-            span(class="name") Dekopon
+            span(class="name") Dekoponf
           p(class="mt-3 text-base font-thin tracking-widest")
             span(class="note") Portfolio
       div(class="w-full my-6 pt-2 pb-0 px-1 sm:px-0 px-1 tracking-widest text-base font-bold") retouch/ times

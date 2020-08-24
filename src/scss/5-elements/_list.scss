@@ -11,5 +11,10 @@ ol {
 }
 
 li {
+  color: $text-normal-color;
   margin: $post-list-li-margin;
+}
+
+li::marker {
+  color: $list-normal-color;
 }
